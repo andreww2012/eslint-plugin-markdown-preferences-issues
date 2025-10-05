@@ -8,6 +8,8 @@ export default defineConfig([
     },
     language: 'markdown-preferences/extended-syntax',
     files: ['**/*.md'],
-    rules: {},
+    rules: {
+      'markdown-preferences/prefer-link-reference-definitions': 2,
+    },
   },
 ]);
