@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "typescript-project-basic-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "andreww2012",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "9.37.0",
+    "eslint-plugin-markdown-preferences": "0.35.0",
+    "jiti": "2.6.1",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@10.18.0"
+}
