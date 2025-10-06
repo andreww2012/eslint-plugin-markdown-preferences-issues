@@ -32,4 +32,14 @@ export default defineConfig([
       ],
     },
   },
+  {
+    files: [
+      'src/issues/padding-line-between-blocks-disallows-comments-directly-above-blocks.md',
+      'src/issues/padding-line-between-blocks-disallows-comments-should-not-require-empty-line-between-block-and-closing-html-tag.md',
+    ],
+    rules: {
+      'markdown-preferences/padding-line-between-blocks': 2,
+      'markdown-preferences/prefer-link-reference-definitions': 2,
+    },
+  },
 ]);
