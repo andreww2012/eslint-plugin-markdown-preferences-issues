@@ -10,6 +10,12 @@ export default defineConfig([
     files: ['**/*.md'],
   },
   {
+    files: ['src/issues/heading-casing-crash-if-heading-includes-sub-phrase-of-preserved-word.md'],
+    rules: {
+      'markdown-preferences/heading-casing': 2,
+    },
+  },
+  {
     files: ['src/issues/prefer-link-reference-definitions-autofix-removes-images.md'],
     rules: {
       'markdown-preferences/prefer-link-reference-definitions': 2,
