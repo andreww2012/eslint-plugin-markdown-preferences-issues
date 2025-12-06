@@ -10,6 +10,12 @@ export default defineConfig([
     files: ['**/*.md'],
   },
   {
+    files: ['src/issues/crash-on-escaped-or-enclosed-in-quotes-urls-or-emails.md'],
+    rules: {
+      'markdown-preferences/link-destination-style': 2,
+    },
+  },
+  {
     files: ['src/issues/heading-casing-crash-if-heading-includes-sub-phrase-of-preserved-word.md'],
     rules: {
       'markdown-preferences/heading-casing': 2,
