@@ -10,6 +10,14 @@ export default defineConfig([
     files: ['**/*.md'],
   },
   {
+    files: [
+      'src/issues/crash-on-parsing-vitepress-custom-block-if-micromark-is-resolved-to-dev-bundle.md',
+    ],
+    rules: {
+      'markdown-preferences/custom-container-marker-spacing': 2,
+    },
+  },
+  {
     files: ['src/issues/crash-on-escaped-or-enclosed-in-quotes-urls-or-emails.md'],
     rules: {
       'markdown-preferences/link-destination-style': 2,
